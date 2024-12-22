@@ -29,7 +29,7 @@ pip install -r requirements.txt
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/guifreschi/payment-system-flask.git
+git clone https://github.com/guifreschi/comunicacao-em-tempo-real-flask
 cd payment-system-flask
 ```
 
