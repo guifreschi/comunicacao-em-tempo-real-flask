@@ -6,7 +6,7 @@ from payments.pix import Pix
 from flask_socketio import SocketIO
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:admin123@127.0.0.1:3306/flask-socketio-db'
 app.config['SECRET_KEY'] = 'SECRET_KEY_WEBSOCKET'
 
 db.init_app(app)
